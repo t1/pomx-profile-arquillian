@@ -6,18 +6,18 @@
 
     <properties>
         <arquillian.version>1.1.12.Final</arquillian.version>
-        <shrinkwrap.version>2.2.4</shrinkwrap.version>
+        <shrinkwrap.version>2.2.6</shrinkwrap.version>
     </properties>
 
     <dependencyManagement>
-        <pom>org.jboss.arquillian:arquillian-bom:${arquillian.version}</pom>
         <pom>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:${shrinkwrap.version}</pom>
+        <pom>org.jboss.arquillian:arquillian-bom:${arquillian.version}</pom>
     </dependencyManagement>
 
     <dependencies>
         <test>
             <jar>org.jboss.arquillian.junit:arquillian-junit-container</jar>
-            <jar>org.arquillian.container:arquillian-container-chameleon:1.0.0.Alpha7</jar>
+            <jar>org.arquillian.container:arquillian-container-chameleon:1.0.0.Beta1</jar>
         </test>
     </dependencies>
 </project>
