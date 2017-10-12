@@ -4,5 +4,5 @@
     <pom>com.github.t1:profile-arquillian:1.1.12-SNAPSHOT</pom>
     <description>POMX profile for Arquillian Chameleon</description>
 
-    <profile>com.github.t1:pomx-profile:1.0.0-SNAPSHOT</profile>
+    <profile>com.github.t1:profile-t1:1.0.0-SNAPSHOT</profile>
 </project>
