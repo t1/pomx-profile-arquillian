@@ -5,8 +5,8 @@
     <pom>com.github.t1:arquillian:${arquillian.version}-SNAPSHOT</pom>
 
     <properties>
-        <arquillian.version>1.1.12.Final</arquillian.version>
-        <shrinkwrap.version>2.2.6</shrinkwrap.version>
+        <arquillian.version>1.1.15.Final</arquillian.version>
+        <shrinkwrap.version>3.0.0</shrinkwrap.version>
     </properties>
 
     <dependencyManagement>
