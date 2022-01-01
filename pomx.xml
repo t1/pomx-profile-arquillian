@@ -5,4 +5,10 @@
     <description>POMX profile for Arquillian Chameleon</description>
 
     <profile>com.github.t1:pomx-profile-profile:1.0.0-SNAPSHOT</profile>
+
+    <build>
+        <plugins>
+            <plugin id="com.itemis.maven.plugins:unleash-maven-plugin:2.8.0"/>
+        </plugins>
+    </build>
 </project>
